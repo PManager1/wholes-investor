@@ -59,6 +59,7 @@
   font-weight: bolder;
   margin-bottom: 23px;
   // margin-top: -15px;
+  color: #4a4244; 
   background-image: url('/Images/footer/footer-cta-bg1.png');
 }
 .almost-done-yellow{
@@ -76,16 +77,30 @@
   margin-bottom: 30px; 
 }
 
+.yellow-footer-cta{
+  
+  background-image: url(/Images/footer/footer-cta-bg1.png),url(/Images/footer/footer-cta-bg2.png),url(/Images/footer/footer-cta-bg3.png)
+
+}
+
+
 .yellow-para{
   color: rgba(74,66,68,.5);
 }
-
-.read-more{
+.questions-heading{
+  // color: #4a4244;
+}
+.read-more {
   color: #f04134;
   text-decoration: underline; 
   font-size: 14px;
-  font-weight: 700
-  
+  font-weight: 700;
+}
+.read-more:hover {
+  color: red;
+  text-decoration: underline; 
+  font-size: 14px;
+  font-weight: 800;
 }
 
 .quest-bk{
