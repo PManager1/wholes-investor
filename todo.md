@@ -22,20 +22,21 @@ give differnt image for this page.
 cool UI 
 
 https://www.kayak.com/horizon/sem/hotels/general?lang=en&skipapp=true&kw=-1&gclid=Cj0KCQiAt_PuBRDcARIsAMNlBdph5K2kQpXw8q5I0PTr1KbkQOjuZ5wUjWKABOaLqTyE2c0xeISrsWQaAkvlEALw_wcB&g_kw=airbnb+com&aid=73583337252
-================ 
+================
+ 
+google input - if no address added ask for address , not let it go. 
 
+On going to next page , save that info on to the next page. 
+
+
+CSS - https://stackoverflow.com/questions/7893857/how-do-you-style-the-dropdown-on-google-places-autocomplete-api
+
+===============
 
 LATER - 
 Add arias for bind people. 
 
-
-
-
-
 =========================
-google ap  key 
-
-https://console.cloud.google.com/apis/credentials/key/61?project=placesapi-171320
 
 AIzaSyAf3c5ezl9kBtV1pklSKa8whDP2AcWTvMk
 =========================

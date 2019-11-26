@@ -50,6 +50,11 @@
 .informationDiv{
 
 }
+
+.searchTextField{
+  font-size: 30px;
+}
+
 .p-yrs-big{
   font-size: 25px;
   color: #505050; 
@@ -144,6 +149,20 @@
   height: 100px; 
   background-image: url('/Images/footer/footer-cta-bg3.png');
 }
+.pac-container{
+  color: red; 
+  line-height: 20px; 
+  font-size: 25px; 
+}
+.pac-item, .pac-matched, .pac-item-query {
+  color: #4a4244;
+  line-height: 35px; 
+  font-size: 20px; 
+}
+.pac-item:hover{
+  background: skyblue; 
+  line-height: 35px; 
+}
 
 
 .s130 {
@@ -153,7 +172,7 @@
   -ms-flex-pack: center;
       justify-content: center;
   font-family: 'Poppins', sans-serif;
-  background: url("../images/Searchs_130.png");
+  // background: url("../images/Searchs_130.png");
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -190,8 +209,8 @@
   display: block;
   width: 100%;
   padding: 10px 0;
-  font-size: 16px;
-  color: #000;
+  font-size: 21px;
+  color:  #4a4244;
 }
 
 .s130 form .inner-form .input-field input.placeholder {
@@ -254,7 +273,7 @@
   height: 100%;
   width: 100%;
   white-space: nowrap;
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
   border: 0;
   cursor: pointer;
