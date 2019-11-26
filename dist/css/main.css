@@ -80,27 +80,39 @@ p {
 }
 
 /* line 82, src/sass/components/_base.scss */
+.nav-links-phone {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f04134 !important;
+}
+
+/* line 90, src/sass/components/_base.scss */
+.red-ph-link {
+  color: #f04134 !important;
+}
+
+/* line 94, src/sass/components/_base.scss */
 .navbar-nav li a:hover {
   color: #1abc9c !important;
 }
 
-/* line 85, src/sass/components/_base.scss */
+/* line 97, src/sass/components/_base.scss */
 .nav-push-down {
   margin-top: 28px;
 }
 
-/* line 90, src/sass/components/_base.scss */
+/* line 102, src/sass/components/_base.scss */
 .font-14 {
   font-size: 14px;
 }
 
-/* line 94, src/sass/components/_base.scss */
+/* line 106, src/sass/components/_base.scss */
 .footer {
   background-color: #6bb8e6;
 }
 
 /**** pricing ****/
-/* line 99, src/sass/components/_base.scss */
+/* line 111, src/sass/components/_base.scss */
 h2 {
   font-size: 24px;
   text-transform: uppercase;
@@ -109,7 +121,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-/* line 107, src/sass/components/_base.scss */
+/* line 119, src/sass/components/_base.scss */
 h4 {
   font-size: 19px;
   line-height: 1.375em;
@@ -118,7 +130,7 @@ h4 {
   margin-bottom: 30px;
 }
 
-/* line 115, src/sass/components/_base.scss */
+/* line 127, src/sass/components/_base.scss */
 .jumbotron {
   background-color: #f4511e;
   color: #fff;
@@ -126,60 +138,60 @@ h4 {
   font-family: Montserrat, sans-serif;
 }
 
-/* line 122, src/sass/components/_base.scss */
+/* line 134, src/sass/components/_base.scss */
 .container-fluid {
   padding: 60px 50px;
 }
 
-/* line 126, src/sass/components/_base.scss */
+/* line 138, src/sass/components/_base.scss */
 .bg-grey {
   background-color: #f6f6f6;
 }
 
-/* line 130, src/sass/components/_base.scss */
+/* line 142, src/sass/components/_base.scss */
 .logo-small {
   color: #f4511e;
   font-size: 50px;
 }
 
-/* line 135, src/sass/components/_base.scss */
+/* line 147, src/sass/components/_base.scss */
 .logo {
   color: #f4511e;
   font-size: 200px;
 }
 
-/* line 140, src/sass/components/_base.scss */
+/* line 152, src/sass/components/_base.scss */
 .thumbnail {
   padding: 0 0 15px 0;
   border: none;
   border-radius: 0;
 }
 
-/* line 146, src/sass/components/_base.scss */
+/* line 158, src/sass/components/_base.scss */
 .thumbnail img {
   width: 100%;
   height: 100%;
   margin-bottom: 10px;
 }
 
-/* line 152, src/sass/components/_base.scss */
+/* line 164, src/sass/components/_base.scss */
 .carousel-control.right,
 .carousel-control.left {
   background-image: none;
   color: #f4511e;
 }
 
-/* line 158, src/sass/components/_base.scss */
+/* line 170, src/sass/components/_base.scss */
 .carousel-indicators li {
   border-color: #f4511e;
 }
 
-/* line 162, src/sass/components/_base.scss */
+/* line 174, src/sass/components/_base.scss */
 .carousel-indicators li.active {
   background-color: #f4511e;
 }
 
-/* line 166, src/sass/components/_base.scss */
+/* line 178, src/sass/components/_base.scss */
 .item h4 {
   font-size: 19px;
   line-height: 1.375em;
@@ -188,12 +200,12 @@ h4 {
   margin: 70px 0;
 }
 
-/* line 174, src/sass/components/_base.scss */
+/* line 186, src/sass/components/_base.scss */
 .item span {
   font-style: normal;
 }
 
-/* line 181, src/sass/components/_base.scss */
+/* line 193, src/sass/components/_base.scss */
 .slide {
   animation-name: slide;
   -webkit-animation-name: slide;
@@ -203,12 +215,12 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 190, src/sass/components/_base.scss */
+  /* line 202, src/sass/components/_base.scss */
   .col-sm-4 {
     text-align: center;
     margin: 25px 0;
   }
-  /* line 194, src/sass/components/_base.scss */
+  /* line 206, src/sass/components/_base.scss */
   .btn-lg {
     width: 100%;
     margin-bottom: 35px;
@@ -216,10 +228,20 @@ h4 {
 }
 
 @media screen and (max-width: 480px) {
-  /* line 201, src/sass/components/_base.scss */
+  /* line 213, src/sass/components/_base.scss */
   .logo {
     font-size: 150px;
   }
+}
+
+/* line 1, src/sass/components/_index.scss */
+.topcontainer {
+  background-image: url("/Images/home3.jpg");
+}
+
+/* line 7, src/sass/components/_index.scss */
+.index-h3 {
+  margin-top: 5px;
 }
 
 /* ==========================================================================

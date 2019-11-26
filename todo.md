@@ -14,6 +14,7 @@ Contact Form v5
 Validation in the Forms
 
 ========
+Bring on / display the another nav bar ( like on webuyuglyhouses.com ) on top when we scroll x centimters down. 
 
 ========
 
