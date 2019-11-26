@@ -88,25 +88,26 @@ p {
 /* line 76, src/sass/components/_base.scss */
 .nav-links {
   font-size: 16px;
+  font-weight: bold;
 }
 
-/* line 80, src/sass/components/_base.scss */
+/* line 81, src/sass/components/_base.scss */
 .navbar-nav li a:hover {
   color: #1abc9c !important;
 }
 
-/* line 83, src/sass/components/_base.scss */
+/* line 84, src/sass/components/_base.scss */
 .nav-push-down {
   margin-top: 28px;
 }
 
-/* line 86, src/sass/components/_base.scss */
+/* line 87, src/sass/components/_base.scss */
 .monthly {
   color: white;
   padding: 0px 5px;
 }
 
-/* line 91, src/sass/components/_base.scss */
+/* line 92, src/sass/components/_base.scss */
 .annual {
   background: white;
   color: #8f8787;
@@ -116,18 +117,18 @@ p {
   border-radius: 25px;
 }
 
-/* line 100, src/sass/components/_base.scss */
+/* line 101, src/sass/components/_base.scss */
 .font-14 {
   font-size: 14px;
 }
 
-/* line 104, src/sass/components/_base.scss */
+/* line 105, src/sass/components/_base.scss */
 .footer {
   background-color: #6bb8e6;
 }
 
 /**** pricing ****/
-/* line 109, src/sass/components/_base.scss */
+/* line 110, src/sass/components/_base.scss */
 h2 {
   font-size: 24px;
   text-transform: uppercase;
@@ -136,7 +137,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-/* line 117, src/sass/components/_base.scss */
+/* line 118, src/sass/components/_base.scss */
 h4 {
   font-size: 19px;
   line-height: 1.375em;
@@ -145,7 +146,7 @@ h4 {
   margin-bottom: 30px;
 }
 
-/* line 125, src/sass/components/_base.scss */
+/* line 126, src/sass/components/_base.scss */
 .jumbotron {
   background-color: #f4511e;
   color: #fff;
@@ -153,60 +154,60 @@ h4 {
   font-family: Montserrat, sans-serif;
 }
 
-/* line 132, src/sass/components/_base.scss */
+/* line 133, src/sass/components/_base.scss */
 .container-fluid {
   padding: 60px 50px;
 }
 
-/* line 136, src/sass/components/_base.scss */
+/* line 137, src/sass/components/_base.scss */
 .bg-grey {
   background-color: #f6f6f6;
 }
 
-/* line 140, src/sass/components/_base.scss */
+/* line 141, src/sass/components/_base.scss */
 .logo-small {
   color: #f4511e;
   font-size: 50px;
 }
 
-/* line 145, src/sass/components/_base.scss */
+/* line 146, src/sass/components/_base.scss */
 .logo {
   color: #f4511e;
   font-size: 200px;
 }
 
-/* line 150, src/sass/components/_base.scss */
+/* line 151, src/sass/components/_base.scss */
 .thumbnail {
   padding: 0 0 15px 0;
   border: none;
   border-radius: 0;
 }
 
-/* line 156, src/sass/components/_base.scss */
+/* line 157, src/sass/components/_base.scss */
 .thumbnail img {
   width: 100%;
   height: 100%;
   margin-bottom: 10px;
 }
 
-/* line 162, src/sass/components/_base.scss */
+/* line 163, src/sass/components/_base.scss */
 .carousel-control.right,
 .carousel-control.left {
   background-image: none;
   color: #f4511e;
 }
 
-/* line 168, src/sass/components/_base.scss */
+/* line 169, src/sass/components/_base.scss */
 .carousel-indicators li {
   border-color: #f4511e;
 }
 
-/* line 172, src/sass/components/_base.scss */
+/* line 173, src/sass/components/_base.scss */
 .carousel-indicators li.active {
   background-color: #f4511e;
 }
 
-/* line 176, src/sass/components/_base.scss */
+/* line 177, src/sass/components/_base.scss */
 .item h4 {
   font-size: 19px;
   line-height: 1.375em;
@@ -215,12 +216,12 @@ h4 {
   margin: 70px 0;
 }
 
-/* line 184, src/sass/components/_base.scss */
+/* line 185, src/sass/components/_base.scss */
 .item span {
   font-style: normal;
 }
 
-/* line 188, src/sass/components/_base.scss */
+/* line 189, src/sass/components/_base.scss */
 .panel {
   border: 1px solid #6bb8e5;
   -webkit-transition: -webkit-box-shadow 0.5s;
@@ -229,20 +230,20 @@ h4 {
   transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
 }
 
-/* line 193, src/sass/components/_base.scss */
+/* line 194, src/sass/components/_base.scss */
 .panel:hover {
   -webkit-box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
           box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
 }
 
-/* line 197, src/sass/components/_base.scss */
+/* line 198, src/sass/components/_base.scss */
 .panel-footer .btn:hover {
   border: 1px solid #f4511e;
   background-color: #fff !important;
   color: #f4511e;
 }
 
-/* line 203, src/sass/components/_base.scss */
+/* line 204, src/sass/components/_base.scss */
 .panel-heading {
   color: #fff !important;
   background-color: #6BB8E5 !important;
@@ -254,42 +255,42 @@ h4 {
   border-bottom-right-radius: 0px;
 }
 
-/* line 214, src/sass/components/_base.scss */
+/* line 215, src/sass/components/_base.scss */
 .panel-footer {
   background-color: white !important;
 }
 
-/* line 218, src/sass/components/_base.scss */
+/* line 219, src/sass/components/_base.scss */
 .panel-footer h3 {
   font-size: 32px;
 }
 
-/* line 222, src/sass/components/_base.scss */
+/* line 223, src/sass/components/_base.scss */
 .panel-footer h4 {
   color: #aaa;
   font-size: 14px;
 }
 
-/* line 227, src/sass/components/_base.scss */
+/* line 228, src/sass/components/_base.scss */
 .panel-footer .btn {
   margin: 15px 0;
   background-color: #6bb8e5;
   color: #fff;
 }
 
-/* line 233, src/sass/components/_base.scss */
+/* line 234, src/sass/components/_base.scss */
 footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
   color: #f4511e;
 }
 
-/* line 239, src/sass/components/_base.scss */
+/* line 240, src/sass/components/_base.scss */
 .slideanim {
   visibility: hidden;
 }
 
-/* line 243, src/sass/components/_base.scss */
+/* line 244, src/sass/components/_base.scss */
 .slide {
   animation-name: slide;
   -webkit-animation-name: slide;
@@ -299,12 +300,12 @@ footer .glyphicon {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 252, src/sass/components/_base.scss */
+  /* line 253, src/sass/components/_base.scss */
   .col-sm-4 {
     text-align: center;
     margin: 25px 0;
   }
-  /* line 256, src/sass/components/_base.scss */
+  /* line 257, src/sass/components/_base.scss */
   .btn-lg {
     width: 100%;
     margin-bottom: 35px;
@@ -312,7 +313,7 @@ footer .glyphicon {
 }
 
 @media screen and (max-width: 480px) {
-  /* line 263, src/sass/components/_base.scss */
+  /* line 264, src/sass/components/_base.scss */
   .logo {
     font-size: 150px;
   }
