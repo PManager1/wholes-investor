@@ -6,3 +6,10 @@ Put the BBB rating on top.
 
 
 
+
+
+LATER - 
+Add arias for bind people. 
+
+
+
