@@ -17,6 +17,10 @@ Validation in the Forms
 Bring on / display the another nav bar ( like on webuyuglyhouses.com ) on top when we scroll x centimters down. 
 
 ========
+give differnt image for this page. 
+========
+
+
 
 LATER - 
 Add arias for bind people. 

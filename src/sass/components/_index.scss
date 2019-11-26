@@ -1,9 +1,28 @@
 .topcontainer{
-
   background-image: url('/Images/home3.jpg');
 
 }
 
+.almost-done{
+	font-size:60px;
+  font-weight: bolder;
+  color: white; 
+}
+
+
 .index-h3{
   margin-top: 5px; 
+}
+
+.tinted-image {
+  height: 400px; 
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(255, 0, 0, 0.45),
+      rgba(255, 0, 0, 0.45)
+    ),
+    
+    /* bottom, image */
+    url(/Images/home3.jpg);
 }
