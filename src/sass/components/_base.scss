@@ -6,12 +6,10 @@
  body {
 	font: 20px Montserrat, sans-serif;
 	line-height: 1.8;
-	color: #f5f6f7;
+	// color: #f5f6f7;
 }
 
-.m-t {
-	margin-top: 15px;
-}
+
 
 p {
 	font-size: 16px;
@@ -28,20 +26,17 @@ p {
 	color: #ffffff;
 }
 
-.bg-2 {
-	background-color: #474e5d;
-	color: #ffffff;
-}
+
 
 .almost-done{
 	font-size:60px;
 	font-weight: bolder;
 }
 
-.bg-3 {
-	background-color: #ffffff;
-	color: #555555;
-}
+// .bg-3 {
+// 	background-color: #ffffff;
+// 	color: #555555;
+// }
 
 .main-btn {
 	border-radius: 25px;
@@ -84,19 +79,7 @@ p {
 .nav-push-down{
 	margin-top:28px; 
 }
-.monthly {
-	color: white;
-	padding: 0px 5px;
-}
 
-.annual {
-	background: white;
-	color: #8f8787;
-	padding: 12px 11px;
-	position: relative;
-	left: 5px;
-	border-radius: 25px;
-}
 
 .font-14 {
 	font-size: 14px;
@@ -186,60 +169,8 @@ h4 {
 	font-style: normal;
 }
 
-.panel {
-	border: 1px solid #6bb8e5;
-	transition: box-shadow 0.5s;
-}
 
-.panel:hover {
-	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
-}
 
-.panel-footer .btn:hover {
-	border: 1px solid #f4511e;
-	background-color: #fff !important;
-	color: #f4511e;
-}
-
-.panel-heading {
-	color: #fff !important;
-	background-color: #6BB8E5 !important;
-	padding: 25px;
-	border-bottom: 1px solid transparent;
-	border-top-left-radius: 0px;
-	border-top-right-radius: 0px;
-	border-bottom-left-radius: 0px;
-	border-bottom-right-radius: 0px;
-}
-
-.panel-footer {
-	background-color: white !important;
-}
-
-.panel-footer h3 {
-	font-size: 32px;
-}
-
-.panel-footer h4 {
-	color: #aaa;
-	font-size: 14px;
-}
-
-.panel-footer .btn {
-	margin: 15px 0;
-	background-color: #6bb8e5;
-	color: #fff;
-}
-
-footer .glyphicon {
-	font-size: 20px;
-	margin-bottom: 20px;
-	color: #f4511e;
-}
-
-.slideanim {
-	visibility: hidden;
-}
 
 .slide {
 	animation-name: slide;
@@ -265,4 +196,3 @@ footer .glyphicon {
 		font-size: 150px;
 	}
 }
-
