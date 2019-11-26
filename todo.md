@@ -45,6 +45,10 @@ AIzaSyAf3c5ezl9kBtV1pklSKa8whDP2AcWTvMk
 Add facebook chat plugin into your page - 
 https://developers.facebook.com/docs/messenger-platform/discovery/customer-chat-plugin/
 
+According to Facebook, 53% of people are more likely to shop with a business they can message
+
+https://www.youtube.com/watch?v=vpRvCP8J4Q8
+
 =========================
 
 
