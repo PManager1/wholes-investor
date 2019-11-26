@@ -276,20 +276,36 @@ h4 {
   background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)), url(/Images/home3.jpg);
 }
 
-/* line 47, src/sass/components/_index.scss */
+/* line 53, src/sass/components/_index.scss */
+.p-yrs-big {
+  font-size: 25px;
+  color: #505050;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* line 59, src/sass/components/_index.scss */
+.p-yrs {
+  font-size: 18px;
+  margin-top: 5px;
+  color: #505050;
+  margin-left: 35px;
+}
+
+/* line 67, src/sass/components/_index.scss */
 .bg-yellow {
   background: #fd0;
   color: #4a4244;
 }
 
-/* line 52, src/sass/components/_index.scss */
+/* line 72, src/sass/components/_index.scss */
 .bg-yellow-lower {
   background: #fd0;
   color: #4a4244;
   background-image: url("/Images/footer/footer-home-tree.png");
 }
 
-/* line 57, src/sass/components/_index.scss */
+/* line 77, src/sass/components/_index.scss */
 .almost-done-yellow-top {
   font-size: 40px;
   font-weight: bolder;
@@ -298,7 +314,7 @@ h4 {
   background-image: url("/Images/footer/footer-home-tree.png");
 }
 
-/* line 65, src/sass/components/_index.scss */
+/* line 85, src/sass/components/_index.scss */
 .almost-done-yellow {
   font-size: 40px;
   line-height: 80px;
@@ -308,7 +324,7 @@ h4 {
   padding: 15px;
 }
 
-/* line 73, src/sass/components/_index.scss */
+/* line 93, src/sass/components/_index.scss */
 .almost-done-yellow-head {
   font-size: 12px;
   color: black;
@@ -316,18 +332,18 @@ h4 {
   margin-bottom: 30px;
 }
 
-/* line 80, src/sass/components/_index.scss */
+/* line 100, src/sass/components/_index.scss */
 .yellow-footer-cta {
   background-image: url(/Images/footer/footer-cta-bg1.png), url(/Images/footer/footer-cta-bg2.png), url(/Images/footer/footer-cta-bg3.png);
 }
 
-/* line 84, src/sass/components/_index.scss */
+/* line 104, src/sass/components/_index.scss */
 .p-belowLogo {
   font-size: 12px;
   margin-right: 15px;
 }
 
-/* line 89, src/sass/components/_index.scss */
+/* line 109, src/sass/components/_index.scss */
 .white-footer-link {
   color: #fff;
   list-style-type: none;
@@ -337,7 +353,7 @@ h4 {
   margin-bottom: 22px;
 }
 
-/* line 97, src/sass/components/_index.scss */
+/* line 117, src/sass/components/_index.scss */
 .white-footer-link:hover {
   color: #fff;
   list-style-type: none;
@@ -346,12 +362,12 @@ h4 {
   font-weight: 300;
 }
 
-/* line 104, src/sass/components/_index.scss */
+/* line 124, src/sass/components/_index.scss */
 .yellow-para {
   color: rgba(74, 66, 68, 0.5);
 }
 
-/* line 110, src/sass/components/_index.scss */
+/* line 130, src/sass/components/_index.scss */
 .read-more {
   color: #f04134;
   text-decoration: underline;
@@ -359,7 +375,7 @@ h4 {
   font-weight: 700;
 }
 
-/* line 116, src/sass/components/_index.scss */
+/* line 136, src/sass/components/_index.scss */
 .read-more:hover {
   color: red;
   text-decoration: underline;
@@ -367,13 +383,13 @@ h4 {
   font-weight: 800;
 }
 
-/* line 123, src/sass/components/_index.scss */
+/* line 143, src/sass/components/_index.scss */
 .quest-bk {
   height: 100px;
   background-image: url("/Images/footer/footer-cta-bg3.png");
 }
 
-/* line 129, src/sass/components/_index.scss */
+/* line 149, src/sass/components/_index.scss */
 .s130 {
   min-height: 100vh;
   display: -ms-flexbox;
@@ -390,13 +406,13 @@ h4 {
   padding: 15px;
 }
 
-/* line 143, src/sass/components/_index.scss */
+/* line 163, src/sass/components/_index.scss */
 .s130 form {
   width: 100%;
   max-width: 790px;
 }
 
-/* line 148, src/sass/components/_index.scss */
+/* line 168, src/sass/components/_index.scss */
 .s130 form .inner-form {
   display: -ms-flexbox;
   display: -webkit-box;
@@ -415,12 +431,12 @@ h4 {
   margin-bottom: 30px;
 }
 
-/* line 162, src/sass/components/_index.scss */
+/* line 182, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field {
   height: 68px;
 }
 
-/* line 166, src/sass/components/_index.scss */
+/* line 186, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field input {
   height: 100%;
   background: transparent;
@@ -432,32 +448,32 @@ h4 {
   color: #000;
 }
 
-/* line 177, src/sass/components/_index.scss */
+/* line 197, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field input.placeholder {
   color: #222;
   font-size: 16px;
 }
 
-/* line 182, src/sass/components/_index.scss */
+/* line 202, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field input:-moz-placeholder {
   color: #222;
   font-size: 16px;
 }
 
-/* line 187, src/sass/components/_index.scss */
+/* line 207, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field input::-webkit-input-placeholder {
   color: #222;
   font-size: 16px;
 }
 
-/* line 192, src/sass/components/_index.scss */
+/* line 212, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field input:hover, .s130 form .inner-form .input-field input:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   outline: 0;
 }
 
-/* line 197, src/sass/components/_index.scss */
+/* line 217, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.first-wrap {
   -ms-flex-positive: 1;
   -webkit-box-flex: 1;
@@ -471,14 +487,14 @@ h4 {
   background: white;
 }
 
-/* line 208, src/sass/components/_index.scss */
+/* line 228, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.first-wrap input {
   -ms-flex-positive: 1;
   -webkit-box-flex: 1;
           flex-grow: 1;
 }
 
-/* line 213, src/sass/components/_index.scss */
+/* line 233, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.first-wrap .svg-wrapper {
   min-width: 80px;
   display: -ms-flexbox;
@@ -492,19 +508,19 @@ h4 {
           align-items: center;
 }
 
-/* line 223, src/sass/components/_index.scss */
+/* line 243, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.first-wrap svg {
   width: 36px;
   height: 36px;
   fill: #222;
 }
 
-/* line 229, src/sass/components/_index.scss */
+/* line 249, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.second-wrap {
   min-width: 216px;
 }
 
-/* line 233, src/sass/components/_index.scss */
+/* line 253, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.second-wrap .btn-search {
   height: 100%;
   width: 100%;
@@ -521,19 +537,19 @@ h4 {
   font-weight: 300;
 }
 
-/* line 248, src/sass/components/_index.scss */
+/* line 268, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.second-wrap .btn-search:hover {
   background: #009451;
 }
 
-/* line 252, src/sass/components/_index.scss */
+/* line 272, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.second-wrap .btn-search:focus {
   outline: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 257, src/sass/components/_index.scss */
+/* line 277, src/sass/components/_index.scss */
 .s130 form .info {
   font-size: 15px;
   color: #ccc;
@@ -541,14 +557,14 @@ h4 {
 }
 
 @media screen and (max-width: 992px) {
-  /* line 264, src/sass/components/_index.scss */
+  /* line 284, src/sass/components/_index.scss */
   .s130 form .inner-form .input-field {
     height: 50px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 270, src/sass/components/_index.scss */
+  /* line 290, src/sass/components/_index.scss */
   .s130 form .inner-form .input-field.first-wrap .svg-wrapper {
     min-width: 40px;
     display: -ms-flexbox;
@@ -562,20 +578,33 @@ h4 {
             align-items: center;
     padding: 0 10px;
   }
-  /* line 280, src/sass/components/_index.scss */
+  /* line 300, src/sass/components/_index.scss */
   .s130 form .inner-form .input-field.first-wrap svg {
     width: 26px;
     height: 26px;
     fill: #222;
   }
-  /* line 285, src/sass/components/_index.scss */
+  /* line 305, src/sass/components/_index.scss */
   .s130 form .inner-form .input-field.second-wrap {
     min-width: 100px;
   }
-  /* line 288, src/sass/components/_index.scss */
+  /* line 308, src/sass/components/_index.scss */
   .s130 form .inner-form .input-field.second-wrap .btn-search {
     font-size: 13px;
   }
+}
+
+/* line 314, src/sass/components/_index.scss */
+.asmanicolor {
+  color: #22bcb9;
+}
+
+/* line 318, src/sass/components/_index.scss */
+.hundredk {
+  color: #22bcb9;
+  font-size: 55px;
+  margin-right: 10px;
+  top: 25px;
 }
 
 /* ==========================================================================
@@ -1343,9 +1372,4 @@ input {
 /* line 103, src/sass/components/_contactus.scss */
 .lessBlack {
   color: #4a4244;
-}
-
-/* line 106, src/sass/components/_contactus.scss */
-.asmanicolor {
-  color: #22bcb9;
 }
