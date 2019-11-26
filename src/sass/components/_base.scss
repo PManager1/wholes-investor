@@ -24,13 +24,18 @@ p {
 }
 
 .bg-1 {
-	background-color: #6bb8e6;
+	background-color : #22bcb9; 
 	color: #ffffff;
 }
 
 .bg-2 {
 	background-color: #474e5d;
 	color: #ffffff;
+}
+
+.almost-done{
+	font-size:60px;
+	font-weight: bolder;
 }
 
 .bg-3 {
@@ -61,8 +66,6 @@ p {
 }
 
 .navbar {
-	padding-top: 15px;
-	padding-bottom: 15px;
 	border: 0;
 	border-radius: 0;
 	margin-bottom: 0;
@@ -70,10 +73,16 @@ p {
 	letter-spacing: 5px;
 }
 
+.nav-links{
+	font-size: 16px; 
+}
+
 .navbar-nav li a:hover {
 	color: #1abc9c !important;
 }
-
+.nav-push-down{
+	margin-top:28px; 
+}
 .monthly {
 	color: white;
 	padding: 0px 5px;
