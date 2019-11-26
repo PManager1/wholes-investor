@@ -42,9 +42,10 @@ https://console.cloud.google.com/apis/credentials/key/61?project=placesapi-17132
 AIzaSyAf3c5ezl9kBtV1pklSKa8whDP2AcWTvMk
 =========================
 
+Add facebook chat plugin into your page - 
+https://developers.facebook.com/docs/messenger-platform/discovery/customer-chat-plugin/
 
-
-
+=========================
 
 
 
