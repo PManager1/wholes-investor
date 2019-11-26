@@ -36,9 +36,12 @@ Add arias for bind people.
 google ap  key 
 AIzaSyAHjLHzK-QMA8iPhVfzr7J319_je0FCSE8
 
+
 https://console.cloud.google.com/apis/credentials/key/61?project=placesapi-171320
 
+AIzaSyAf3c5ezl9kBtV1pklSKa8whDP2AcWTvMk
 =========================
+
 
 
 

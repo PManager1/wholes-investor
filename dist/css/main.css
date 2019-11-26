@@ -271,7 +271,65 @@ h4 {
   background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)), url(/Images/home3.jpg);
 }
 
+/* line 47, src/sass/components/_index.scss */
+.bg-yellow {
+  background: #fd0;
+  color: #4a4244;
+}
+
 /* line 52, src/sass/components/_index.scss */
+.bg-yellow-lower {
+  background: #fd0;
+  color: #4a4244;
+  background-image: url("/Images/footer/footer-cta-bg1.png");
+}
+
+/* line 57, src/sass/components/_index.scss */
+.almost-done-yellow-top {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 23px;
+  background-image: url("/Images/footer/footer-cta-bg1.png");
+}
+
+/* line 64, src/sass/components/_index.scss */
+.almost-done-yellow {
+  font-size: 40px;
+  line-height: 80px;
+  margin-top: -17px;
+  font-weight: bolder;
+  color: #4a4244;
+  padding: 15px;
+}
+
+/* line 72, src/sass/components/_index.scss */
+.almost-done-yellow-head {
+  font-size: 12px;
+  color: black;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+/* line 79, src/sass/components/_index.scss */
+.yellow-para {
+  color: rgba(74, 66, 68, 0.5);
+}
+
+/* line 83, src/sass/components/_index.scss */
+.read-more {
+  color: #f04134;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* line 91, src/sass/components/_index.scss */
+.quest-bk {
+  height: 100px;
+  background-image: url("/Images/footer/footer-cta-bg3.png");
+}
+
+/* line 97, src/sass/components/_index.scss */
 .s130 {
   min-height: 100vh;
   display: -ms-flexbox;
@@ -288,13 +346,13 @@ h4 {
   padding: 15px;
 }
 
-/* line 66, src/sass/components/_index.scss */
+/* line 111, src/sass/components/_index.scss */
 .s130 form {
   width: 100%;
   max-width: 790px;
 }
 
-/* line 71, src/sass/components/_index.scss */
+/* line 116, src/sass/components/_index.scss */
 .s130 form .inner-form {
   display: -ms-flexbox;
   display: -webkit-box;
@@ -313,12 +371,12 @@ h4 {
   margin-bottom: 30px;
 }
 
-/* line 85, src/sass/components/_index.scss */
+/* line 130, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field {
   height: 68px;
 }
 
-/* line 89, src/sass/components/_index.scss */
+/* line 134, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field input {
   height: 100%;
   background: transparent;
@@ -330,32 +388,32 @@ h4 {
   color: #000;
 }
 
-/* line 100, src/sass/components/_index.scss */
+/* line 145, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field input.placeholder {
   color: #222;
   font-size: 16px;
 }
 
-/* line 105, src/sass/components/_index.scss */
+/* line 150, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field input:-moz-placeholder {
   color: #222;
   font-size: 16px;
 }
 
-/* line 110, src/sass/components/_index.scss */
+/* line 155, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field input::-webkit-input-placeholder {
   color: #222;
   font-size: 16px;
 }
 
-/* line 115, src/sass/components/_index.scss */
+/* line 160, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field input:hover, .s130 form .inner-form .input-field input:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   outline: 0;
 }
 
-/* line 120, src/sass/components/_index.scss */
+/* line 165, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.first-wrap {
   -ms-flex-positive: 1;
   -webkit-box-flex: 1;
@@ -369,14 +427,14 @@ h4 {
   background: white;
 }
 
-/* line 131, src/sass/components/_index.scss */
+/* line 176, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.first-wrap input {
   -ms-flex-positive: 1;
   -webkit-box-flex: 1;
           flex-grow: 1;
 }
 
-/* line 136, src/sass/components/_index.scss */
+/* line 181, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.first-wrap .svg-wrapper {
   min-width: 80px;
   display: -ms-flexbox;
@@ -390,19 +448,19 @@ h4 {
           align-items: center;
 }
 
-/* line 146, src/sass/components/_index.scss */
+/* line 191, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.first-wrap svg {
   width: 36px;
   height: 36px;
   fill: #222;
 }
 
-/* line 152, src/sass/components/_index.scss */
+/* line 197, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.second-wrap {
   min-width: 216px;
 }
 
-/* line 156, src/sass/components/_index.scss */
+/* line 201, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.second-wrap .btn-search {
   height: 100%;
   width: 100%;
@@ -419,19 +477,19 @@ h4 {
   font-weight: 300;
 }
 
-/* line 171, src/sass/components/_index.scss */
+/* line 216, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.second-wrap .btn-search:hover {
   background: #009451;
 }
 
-/* line 175, src/sass/components/_index.scss */
+/* line 220, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.second-wrap .btn-search:focus {
   outline: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 180, src/sass/components/_index.scss */
+/* line 225, src/sass/components/_index.scss */
 .s130 form .info {
   font-size: 15px;
   color: #ccc;
@@ -439,14 +497,14 @@ h4 {
 }
 
 @media screen and (max-width: 992px) {
-  /* line 187, src/sass/components/_index.scss */
+  /* line 232, src/sass/components/_index.scss */
   .s130 form .inner-form .input-field {
     height: 50px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 193, src/sass/components/_index.scss */
+  /* line 238, src/sass/components/_index.scss */
   .s130 form .inner-form .input-field.first-wrap .svg-wrapper {
     min-width: 40px;
     display: -ms-flexbox;
@@ -460,17 +518,17 @@ h4 {
             align-items: center;
     padding: 0 10px;
   }
-  /* line 203, src/sass/components/_index.scss */
+  /* line 248, src/sass/components/_index.scss */
   .s130 form .inner-form .input-field.first-wrap svg {
     width: 26px;
     height: 26px;
     fill: #222;
   }
-  /* line 208, src/sass/components/_index.scss */
+  /* line 253, src/sass/components/_index.scss */
   .s130 form .inner-form .input-field.second-wrap {
     min-width: 100px;
   }
-  /* line 211, src/sass/components/_index.scss */
+  /* line 256, src/sass/components/_index.scss */
   .s130 form .inner-form .input-field.second-wrap .btn-search {
     font-size: 13px;
   }
