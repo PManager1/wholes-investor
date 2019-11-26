@@ -281,7 +281,7 @@ h4 {
 .bg-yellow-lower {
   background: #fd0;
   color: #4a4244;
-  background-image: url("/Images/footer/footer-cta-bg1.png");
+  background-image: url("/Images/footer/footer-home-tree.png");
 }
 
 /* line 57, src/sass/components/_index.scss */
@@ -290,7 +290,7 @@ h4 {
   font-weight: bolder;
   margin-bottom: 23px;
   color: #4a4244;
-  background-image: url("/Images/footer/footer-cta-bg1.png");
+  background-image: url("/Images/footer/footer-home-tree.png");
 }
 
 /* line 65, src/sass/components/_index.scss */
