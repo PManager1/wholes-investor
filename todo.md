@@ -33,6 +33,12 @@ CSS - https://stackoverflow.com/questions/7893857/how-do-you-style-the-dropdown-
 
 ===============
 
+testimonial slider 
+http://sachinchoolur.github.io/lightslider/
+===============
+
+
+
 LATER - 
 Add arias for bind people. 
 
