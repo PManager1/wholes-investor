@@ -56,6 +56,22 @@ According to Facebook, 53% of people are more likely to shop with a business the
 https://www.youtube.com/watch?v=vpRvCP8J4Q8
 
 =========================
+maybe you can create a dummy google reviews page. 
+thats looks like google but its your website. 
 
+https://www.google.com/shopping/ratings/account/metrics?q=lightbulbs.com&c=US&v=4&hl=en
+
+=========================
+testimonials page 
+
+https://codepen.io/alvic/pen/NeqLPB
+=========================
+
+
+=========================
+
+=========================
+
+=========================
 
 
