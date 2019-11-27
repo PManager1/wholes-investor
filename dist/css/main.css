@@ -281,7 +281,50 @@ h4 {
   font-size: 30px;
 }
 
-/* line 58, src/sass/components/_index.scss */
+/* line 57, src/sass/components/_index.scss */
+.process {
+  background: #f4ffff;
+}
+
+/* line 70, src/sass/components/_index.scss */
+.p-above-leading {
+  font-weight: bold;
+  color: #22bcb9;
+  margin-bottom: 20px;
+}
+
+/* line 76, src/sass/components/_index.scss */
+.leading-h2 {
+  font-weight: bolder;
+  color: grey;
+}
+
+/* line 81, src/sass/components/_index.scss */
+.how-works {
+  margin-top: 50px;
+}
+
+/* line 84, src/sass/components/_index.scss */
+.calendar::after {
+  content: 'hello ';
+}
+
+/* line 88, src/sass/components/_index.scss */
+.calendar-first {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 95, src/sass/components/_index.scss */
+.p-after-calendar {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  color: grey;
+}
+
+/* line 106, src/sass/components/_index.scss */
 .p-yrs-big {
   font-size: 25px;
   color: #505050;
@@ -289,7 +332,7 @@ h4 {
   margin-bottom: 20px;
 }
 
-/* line 64, src/sass/components/_index.scss */
+/* line 112, src/sass/components/_index.scss */
 .p-yrs {
   font-size: 18px;
   margin-top: 5px;
@@ -297,20 +340,20 @@ h4 {
   margin-left: 35px;
 }
 
-/* line 72, src/sass/components/_index.scss */
+/* line 120, src/sass/components/_index.scss */
 .bg-yellow {
   background: #fd0;
   color: #4a4244;
 }
 
-/* line 77, src/sass/components/_index.scss */
+/* line 125, src/sass/components/_index.scss */
 .bg-yellow-lower {
   background: #fd0;
   color: #4a4244;
   background-image: url("/Images/footer/footer-home-tree.png");
 }
 
-/* line 82, src/sass/components/_index.scss */
+/* line 130, src/sass/components/_index.scss */
 .almost-done-yellow-top {
   font-size: 40px;
   font-weight: bolder;
@@ -319,7 +362,7 @@ h4 {
   background-image: url("/Images/footer/footer-home-tree.png");
 }
 
-/* line 90, src/sass/components/_index.scss */
+/* line 138, src/sass/components/_index.scss */
 .almost-done-yellow {
   font-size: 40px;
   line-height: 80px;
@@ -329,7 +372,7 @@ h4 {
   padding: 15px;
 }
 
-/* line 98, src/sass/components/_index.scss */
+/* line 146, src/sass/components/_index.scss */
 .almost-done-yellow-head {
   font-size: 12px;
   color: black;
@@ -337,18 +380,18 @@ h4 {
   margin-bottom: 30px;
 }
 
-/* line 105, src/sass/components/_index.scss */
+/* line 153, src/sass/components/_index.scss */
 .yellow-footer-cta {
   background-image: url(/Images/footer/footer-cta-bg1.png), url(/Images/footer/footer-cta-bg2.png), url(/Images/footer/footer-cta-bg3.png);
 }
 
-/* line 109, src/sass/components/_index.scss */
+/* line 157, src/sass/components/_index.scss */
 .p-belowLogo {
   font-size: 12px;
   margin-right: 15px;
 }
 
-/* line 114, src/sass/components/_index.scss */
+/* line 162, src/sass/components/_index.scss */
 .white-footer-link {
   color: #fff;
   list-style-type: none;
@@ -358,7 +401,7 @@ h4 {
   margin-bottom: 22px;
 }
 
-/* line 122, src/sass/components/_index.scss */
+/* line 170, src/sass/components/_index.scss */
 .white-footer-link:hover {
   color: #fff;
   list-style-type: none;
@@ -367,12 +410,12 @@ h4 {
   font-weight: 300;
 }
 
-/* line 129, src/sass/components/_index.scss */
+/* line 177, src/sass/components/_index.scss */
 .yellow-para {
   color: rgba(74, 66, 68, 0.5);
 }
 
-/* line 135, src/sass/components/_index.scss */
+/* line 183, src/sass/components/_index.scss */
 .read-more {
   color: #f04134;
   text-decoration: underline;
@@ -380,7 +423,7 @@ h4 {
   font-weight: 700;
 }
 
-/* line 141, src/sass/components/_index.scss */
+/* line 189, src/sass/components/_index.scss */
 .read-more:hover {
   color: red;
   text-decoration: underline;
@@ -388,33 +431,33 @@ h4 {
   font-weight: 800;
 }
 
-/* line 148, src/sass/components/_index.scss */
+/* line 196, src/sass/components/_index.scss */
 .quest-bk {
   height: 100px;
   background-image: url("/Images/footer/footer-cta-bg3.png");
 }
 
-/* line 152, src/sass/components/_index.scss */
+/* line 200, src/sass/components/_index.scss */
 .pac-container {
   color: red;
   line-height: 20px;
   font-size: 25px;
 }
 
-/* line 157, src/sass/components/_index.scss */
+/* line 205, src/sass/components/_index.scss */
 .pac-item, .pac-matched, .pac-item-query {
   color: #4a4244;
   line-height: 35px;
   font-size: 20px;
 }
 
-/* line 162, src/sass/components/_index.scss */
+/* line 210, src/sass/components/_index.scss */
 .pac-item:hover {
   background: skyblue;
   line-height: 35px;
 }
 
-/* line 168, src/sass/components/_index.scss */
+/* line 216, src/sass/components/_index.scss */
 .s130 {
   min-height: 100vh;
   display: -ms-flexbox;
@@ -430,13 +473,13 @@ h4 {
   padding: 15px;
 }
 
-/* line 182, src/sass/components/_index.scss */
+/* line 230, src/sass/components/_index.scss */
 .s130 form {
   width: 100%;
   max-width: 790px;
 }
 
-/* line 187, src/sass/components/_index.scss */
+/* line 235, src/sass/components/_index.scss */
 .s130 form .inner-form {
   display: -ms-flexbox;
   display: -webkit-box;
@@ -455,12 +498,12 @@ h4 {
   margin-bottom: 30px;
 }
 
-/* line 201, src/sass/components/_index.scss */
+/* line 249, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field {
   height: 68px;
 }
 
-/* line 205, src/sass/components/_index.scss */
+/* line 253, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field input {
   height: 100%;
   background: transparent;
@@ -472,32 +515,32 @@ h4 {
   color: #4a4244;
 }
 
-/* line 216, src/sass/components/_index.scss */
+/* line 264, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field input.placeholder {
   color: #222;
   font-size: 16px;
 }
 
-/* line 221, src/sass/components/_index.scss */
+/* line 269, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field input:-moz-placeholder {
   color: #222;
   font-size: 16px;
 }
 
-/* line 226, src/sass/components/_index.scss */
+/* line 274, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field input::-webkit-input-placeholder {
   color: #222;
   font-size: 16px;
 }
 
-/* line 231, src/sass/components/_index.scss */
+/* line 279, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field input:hover, .s130 form .inner-form .input-field input:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   outline: 0;
 }
 
-/* line 236, src/sass/components/_index.scss */
+/* line 284, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.first-wrap {
   -ms-flex-positive: 1;
   -webkit-box-flex: 1;
@@ -511,14 +554,14 @@ h4 {
   background: white;
 }
 
-/* line 247, src/sass/components/_index.scss */
+/* line 295, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.first-wrap input {
   -ms-flex-positive: 1;
   -webkit-box-flex: 1;
           flex-grow: 1;
 }
 
-/* line 252, src/sass/components/_index.scss */
+/* line 300, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.first-wrap .svg-wrapper {
   min-width: 80px;
   display: -ms-flexbox;
@@ -532,19 +575,19 @@ h4 {
           align-items: center;
 }
 
-/* line 262, src/sass/components/_index.scss */
+/* line 310, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.first-wrap svg {
   width: 36px;
   height: 36px;
   fill: #222;
 }
 
-/* line 268, src/sass/components/_index.scss */
+/* line 316, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.second-wrap {
   min-width: 216px;
 }
 
-/* line 272, src/sass/components/_index.scss */
+/* line 320, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.second-wrap .btn-search {
   height: 100%;
   width: 100%;
@@ -561,19 +604,19 @@ h4 {
   font-weight: 300;
 }
 
-/* line 287, src/sass/components/_index.scss */
+/* line 335, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.second-wrap .btn-search:hover {
   background: #009451;
 }
 
-/* line 291, src/sass/components/_index.scss */
+/* line 339, src/sass/components/_index.scss */
 .s130 form .inner-form .input-field.second-wrap .btn-search:focus {
   outline: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 296, src/sass/components/_index.scss */
+/* line 344, src/sass/components/_index.scss */
 .s130 form .info {
   font-size: 15px;
   color: #ccc;
@@ -581,14 +624,14 @@ h4 {
 }
 
 @media screen and (max-width: 992px) {
-  /* line 303, src/sass/components/_index.scss */
+  /* line 351, src/sass/components/_index.scss */
   .s130 form .inner-form .input-field {
     height: 50px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 309, src/sass/components/_index.scss */
+  /* line 357, src/sass/components/_index.scss */
   .s130 form .inner-form .input-field.first-wrap .svg-wrapper {
     min-width: 40px;
     display: -ms-flexbox;
@@ -602,28 +645,28 @@ h4 {
             align-items: center;
     padding: 0 10px;
   }
-  /* line 319, src/sass/components/_index.scss */
+  /* line 367, src/sass/components/_index.scss */
   .s130 form .inner-form .input-field.first-wrap svg {
     width: 26px;
     height: 26px;
     fill: #222;
   }
-  /* line 324, src/sass/components/_index.scss */
+  /* line 372, src/sass/components/_index.scss */
   .s130 form .inner-form .input-field.second-wrap {
     min-width: 100px;
   }
-  /* line 327, src/sass/components/_index.scss */
+  /* line 375, src/sass/components/_index.scss */
   .s130 form .inner-form .input-field.second-wrap .btn-search {
     font-size: 13px;
   }
 }
 
-/* line 333, src/sass/components/_index.scss */
+/* line 381, src/sass/components/_index.scss */
 .asmanicolor {
   color: #22bcb9;
 }
 
-/* line 337, src/sass/components/_index.scss */
+/* line 385, src/sass/components/_index.scss */
 .hundredk {
   color: #22bcb9;
   font-size: 55px;
