@@ -34,6 +34,7 @@ CSS - https://stackoverflow.com/questions/7893857/how-do-you-style-the-dropdown-
 ===============
 
 testimonial slider 
+https://www.codeply.com/go/EIOtI7nkP8
 http://sachinchoolur.github.io/lightslider/
 ===============
 
