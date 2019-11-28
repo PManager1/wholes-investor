@@ -24,7 +24,6 @@
   color: white; 
 }
 
-
 .index-h3{
   font-size: 30px;
   margin-top: 5px; 
@@ -35,12 +34,7 @@
 .tinted-image {
   height: 560px !important; 
   background: 
-    /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(255, 0, 0, 0.45),
-      rgba(255, 0, 0, 0.45)
-    ),
-    
+  linear-gradient(-52deg,rgba(34,188,185,.5) 0,rgba(34,188,185,.5) 47%,#22bcb9 100%),
     /* bottom, image */
     url(/Images/home3.jpg);
 }
