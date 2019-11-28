@@ -2,6 +2,7 @@
 /**
  * @section Base Styles
  */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,800);
 /* line 10, src/sass/components/_base.scss */
 p {
   font-size: 16px;
@@ -926,15 +927,109 @@ footer .glyphicon {
   font-weight: 700;
 }
 
+/* line 4, src/sass/components/_faq.scss */
+body {
+  font-family: 'Open Sans';
+  font-size: 1.5em;
+  background: #eee;
+}
+
+/* line 10, src/sass/components/_faq.scss */
+.content {
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+  padding: 0 60px 0 0;
+}
+
+/* line 17, src/sass/components/_faq.scss */
+.centerplease {
+  margin: 0 auto;
+  max-width: 270px;
+  font-size: 40px;
+}
+
+/* line 23, src/sass/components/_faq.scss */
+.question {
+  position: relative;
+  background: #8FBC8F;
+  margin: 0;
+  padding: 10px 10px 10px 50px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* line 33, src/sass/components/_faq.scss */
+.answers {
+  background: #999;
+  padding: 0px 15px;
+  margin: 5px 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+}
+
+/* line 48, src/sass/components/_faq.scss */
+.questions:checked ~ .answers {
+  height: auto;
+  opacity: 1;
+  padding: 15px;
+}
+
+/* line 54, src/sass/components/_faq.scss */
+.plus {
+  position: absolute;
+  margin-left: 10px;
+  z-index: 5;
+  font-size: 2em;
+  line-height: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+/* line 71, src/sass/components/_faq.scss */
+.questions:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 78, src/sass/components/_faq.scss */
+.questions {
+  display: none;
+}
+
+/* ======== START ==================================================================
+
+
+
+
+
+
+
+
+
+
+/* === END =======================================================================
+
 /* ==========================================================================
    #FONT
    ========================================================================== */
-/* line 5, src/sass/components/_faq.scss */
+/* line 100, src/sass/components/_faq.scss */
 .font-robo {
   font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
 }
 
-/* line 9, src/sass/components/_faq.scss */
+/* line 104, src/sass/components/_faq.scss */
 .font-poppins {
   font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
 }
@@ -942,7 +1037,7 @@ footer .glyphicon {
 /* ==========================================================================
      #GRID
      ========================================================================== */
-/* line 16, src/sass/components/_faq.scss */
+/* line 110, src/sass/components/_faq.scss */
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -951,20 +1046,20 @@ footer .glyphicon {
   flex-wrap: wrap;
 }
 
-/* line 27, src/sass/components/_faq.scss */
+/* line 121, src/sass/components/_faq.scss */
 .row-space {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
-/* line 35, src/sass/components/_faq.scss */
+/* line 129, src/sass/components/_faq.scss */
 .col-2 {
   width: calc((100% - 30px) / 2);
 }
 
 @media (max-width: 767px) {
-  /* line 42, src/sass/components/_faq.scss */
+  /* line 136, src/sass/components/_faq.scss */
   .col-2 {
     width: 100%;
   }
@@ -977,19 +1072,19 @@ footer .glyphicon {
    * More sensible default box-sizing:
    * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
    */
-/* line 54, src/sass/components/_faq.scss */
+/* line 148, src/sass/components/_faq.scss */
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 60, src/sass/components/_faq.scss */
+/* line 154, src/sass/components/_faq.scss */
 * {
   padding: 0;
   margin: 0;
 }
 
-/* line 65, src/sass/components/_faq.scss */
+/* line 159, src/sass/components/_faq.scss */
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
@@ -1001,7 +1096,7 @@ html {
 /**
    * A very simple reset that sits on top of Normalize.css.
    */
-/* line 77, src/sass/components/_faq.scss */
+/* line 171, src/sass/components/_faq.scss */
 body,
 h1, h2, h3, h4, h5, h6,
 blockquote, p, pre,
@@ -1016,7 +1111,7 @@ fieldset, legend {
 /**
    * Remove trailing margins from nested lists.
    */
-/* line 91, src/sass/components/_faq.scss */
+/* line 185, src/sass/components/_faq.scss */
 li > ol,
 li > ul {
   margin-bottom: 0;
@@ -1025,7 +1120,7 @@ li > ul {
 /**
    * Remove default table spacing.
    */
-/* line 99, src/sass/components/_faq.scss */
+/* line 193, src/sass/components/_faq.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -1035,14 +1130,14 @@ table {
    * 1. Reset Chrome and Firefox behaviour which sets a `min-width: min-content;`
    *    on fieldsets.
    */
-/* line 108, src/sass/components/_faq.scss */
+/* line 202, src/sass/components/_faq.scss */
 fieldset {
   min-width: 0;
   /* [1] */
   border: 0;
 }
 
-/* line 114, src/sass/components/_faq.scss */
+/* line 208, src/sass/components/_faq.scss */
 button {
   outline: none;
   background: none;
@@ -1052,49 +1147,49 @@ button {
 /* ==========================================================================
      #PAGE WRAPPER
      ========================================================================== */
-/* line 123, src/sass/components/_faq.scss */
+/* line 217, src/sass/components/_faq.scss */
 .page-wrapper {
   min-height: 100vh;
 }
 
-/* line 127, src/sass/components/_faq.scss */
+/* line 221, src/sass/components/_faq.scss */
 body {
   font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
 
-/* line 133, src/sass/components/_faq.scss */
+/* line 227, src/sass/components/_faq.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-/* line 137, src/sass/components/_faq.scss */
+/* line 231, src/sass/components/_faq.scss */
 h1 {
   font-size: 36px;
 }
 
-/* line 141, src/sass/components/_faq.scss */
+/* line 235, src/sass/components/_faq.scss */
 h2 {
   font-size: 30px;
 }
 
-/* line 145, src/sass/components/_faq.scss */
+/* line 239, src/sass/components/_faq.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 149, src/sass/components/_faq.scss */
+/* line 243, src/sass/components/_faq.scss */
 h4 {
   font-size: 18px;
 }
 
-/* line 153, src/sass/components/_faq.scss */
+/* line 247, src/sass/components/_faq.scss */
 h5 {
   font-size: 15px;
 }
 
-/* line 157, src/sass/components/_faq.scss */
+/* line 251, src/sass/components/_faq.scss */
 h6 {
   font-size: 13px;
 }
@@ -1102,23 +1197,23 @@ h6 {
 /* ==========================================================================
      #BACKGROUND
      ========================================================================== */
-/* line 164, src/sass/components/_faq.scss */
+/* line 258, src/sass/components/_faq.scss */
 .bg-blue {
   background: #2c6ed5;
 }
 
-/* line 168, src/sass/components/_faq.scss */
+/* line 262, src/sass/components/_faq.scss */
 .bg-red {
   background: #fa4251;
 }
 
-/* line 172, src/sass/components/_faq.scss */
+/* line 266, src/sass/components/_faq.scss */
 .bg-gra-01 {
   background: -webkit-gradient(linear, left bottom, left top, from(#fbc2eb), to(#a18cd1));
   background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
 }
 
-/* line 180, src/sass/components/_faq.scss */
+/* line 274, src/sass/components/_faq.scss */
 .bg-gra-02 {
   background: -webkit-gradient(linear, left bottom, right top, from(#fc2c77), to(#6c4079));
   background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);
@@ -1127,47 +1222,47 @@ h6 {
 /* ==========================================================================
      #SPACING
      ========================================================================== */
-/* line 191, src/sass/components/_faq.scss */
+/* line 285, src/sass/components/_faq.scss */
 .p-t-100 {
   padding-top: 100px;
 }
 
-/* line 195, src/sass/components/_faq.scss */
+/* line 289, src/sass/components/_faq.scss */
 .p-t-130 {
   padding-top: 130px;
 }
 
-/* line 199, src/sass/components/_faq.scss */
+/* line 293, src/sass/components/_faq.scss */
 .p-t-180 {
   padding-top: 180px;
 }
 
-/* line 203, src/sass/components/_faq.scss */
+/* line 297, src/sass/components/_faq.scss */
 .p-t-20 {
   padding-top: 20px;
 }
 
-/* line 207, src/sass/components/_faq.scss */
+/* line 301, src/sass/components/_faq.scss */
 .p-t-15 {
   padding-top: 15px;
 }
 
-/* line 211, src/sass/components/_faq.scss */
+/* line 305, src/sass/components/_faq.scss */
 .p-t-10 {
   padding-top: 10px;
 }
 
-/* line 215, src/sass/components/_faq.scss */
+/* line 309, src/sass/components/_faq.scss */
 .p-t-30 {
   padding-top: 30px;
 }
 
-/* line 219, src/sass/components/_faq.scss */
+/* line 313, src/sass/components/_faq.scss */
 .p-b-100 {
   padding-bottom: 100px;
 }
 
-/* line 223, src/sass/components/_faq.scss */
+/* line 317, src/sass/components/_faq.scss */
 .m-r-45 {
   margin-right: 45px;
 }
@@ -1175,22 +1270,22 @@ h6 {
 /* ==========================================================================
      #WRAPPER
      ========================================================================== */
-/* line 230, src/sass/components/_faq.scss */
+/* line 324, src/sass/components/_faq.scss */
 .wrapper {
   margin: 0 auto;
 }
 
-/* line 234, src/sass/components/_faq.scss */
+/* line 328, src/sass/components/_faq.scss */
 .wrapper--w960 {
   max-width: 960px;
 }
 
-/* line 238, src/sass/components/_faq.scss */
+/* line 332, src/sass/components/_faq.scss */
 .wrapper--w780 {
   max-width: 780px;
 }
 
-/* line 242, src/sass/components/_faq.scss */
+/* line 336, src/sass/components/_faq.scss */
 .wrapper--w680 {
   max-width: 680px;
 }
@@ -1198,7 +1293,7 @@ h6 {
 /* ==========================================================================
      #BUTTON
      ========================================================================== */
-/* line 249, src/sass/components/_faq.scss */
+/* line 343, src/sass/components/_faq.scss */
 .btn {
   display: inline-block;
   line-height: 50px;
@@ -1211,37 +1306,37 @@ h6 {
   font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
 }
 
-/* line 263, src/sass/components/_faq.scss */
+/* line 357, src/sass/components/_faq.scss */
 .btn--radius {
   border-radius: 3px;
 }
 
-/* line 269, src/sass/components/_faq.scss */
+/* line 363, src/sass/components/_faq.scss */
 .btn--radius-2 {
   border-radius: 5px;
 }
 
-/* line 275, src/sass/components/_faq.scss */
+/* line 369, src/sass/components/_faq.scss */
 .btn--pill {
   border-radius: 20px;
 }
 
-/* line 281, src/sass/components/_faq.scss */
+/* line 375, src/sass/components/_faq.scss */
 .btn--green {
   background: #57b846;
 }
 
-/* line 285, src/sass/components/_faq.scss */
+/* line 379, src/sass/components/_faq.scss */
 .btn--green:hover {
   background: #4dae3c;
 }
 
-/* line 289, src/sass/components/_faq.scss */
+/* line 383, src/sass/components/_faq.scss */
 .btn--blue {
   background: #4272d7;
 }
 
-/* line 293, src/sass/components/_faq.scss */
+/* line 387, src/sass/components/_faq.scss */
 .btn--blue:hover {
   background: #3868cd;
 }
@@ -1249,30 +1344,30 @@ h6 {
 /* ==========================================================================
      #DATE PICKER
      ========================================================================== */
-/* line 300, src/sass/components/_faq.scss */
+/* line 394, src/sass/components/_faq.scss */
 td.active {
   background-color: #2c6ed5;
 }
 
-/* line 304, src/sass/components/_faq.scss */
+/* line 398, src/sass/components/_faq.scss */
 input[type="date" i] {
   padding: 14px;
 }
 
-/* line 308, src/sass/components/_faq.scss */
+/* line 402, src/sass/components/_faq.scss */
 .table-condensed td, .table-condensed th {
   font-size: 14px;
   font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
   font-weight: 400;
 }
 
-/* line 314, src/sass/components/_faq.scss */
+/* line 408, src/sass/components/_faq.scss */
 .daterangepicker td {
   width: 40px;
   height: 30px;
 }
 
-/* line 319, src/sass/components/_faq.scss */
+/* line 413, src/sass/components/_faq.scss */
 .daterangepicker {
   border: none;
   -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
@@ -1282,17 +1377,17 @@ input[type="date" i] {
   margin-top: 5px;
 }
 
-/* line 329, src/sass/components/_faq.scss */
+/* line 423, src/sass/components/_faq.scss */
 .daterangepicker::after, .daterangepicker::before {
   display: none;
 }
 
-/* line 333, src/sass/components/_faq.scss */
+/* line 427, src/sass/components/_faq.scss */
 .daterangepicker thead tr th {
   padding: 10px 0;
 }
 
-/* line 337, src/sass/components/_faq.scss */
+/* line 431, src/sass/components/_faq.scss */
 .daterangepicker .table-condensed th select {
   border: 1px solid #ccc;
   border-radius: 3px;
@@ -1304,7 +1399,7 @@ input[type="date" i] {
 /* ==========================================================================
      #FORM
      ========================================================================== */
-/* line 350, src/sass/components/_faq.scss */
+/* line 444, src/sass/components/_faq.scss */
 input {
   outline: none;
   margin: 0;
@@ -1316,7 +1411,7 @@ input {
   font-family: inherit;
 }
 
-/* line 362, src/sass/components/_faq.scss */
+/* line 456, src/sass/components/_faq.scss */
 .input--style-4 {
   line-height: 50px;
   background: #fafafa;
@@ -1330,39 +1425,39 @@ input {
   transition: all 0.4s ease;
 }
 
-/* line 380, src/sass/components/_faq.scss */
+/* line 474, src/sass/components/_faq.scss */
 .input--style-4::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: #666;
 }
 
-/* line 385, src/sass/components/_faq.scss */
+/* line 479, src/sass/components/_faq.scss */
 .input--style-4:-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #666;
   opacity: 1;
 }
 
-/* line 391, src/sass/components/_faq.scss */
+/* line 485, src/sass/components/_faq.scss */
 .input--style-4::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: #666;
   opacity: 1;
 }
 
-/* line 397, src/sass/components/_faq.scss */
+/* line 491, src/sass/components/_faq.scss */
 .input--style-4:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: #666;
 }
 
-/* line 402, src/sass/components/_faq.scss */
+/* line 496, src/sass/components/_faq.scss */
 .input--style-4:-ms-input-placeholder {
   /* Microsoft Edge */
   color: #666;
 }
 
-/* line 407, src/sass/components/_faq.scss */
+/* line 501, src/sass/components/_faq.scss */
 .label {
   font-size: 16px;
   color: #555;
@@ -1371,7 +1466,7 @@ input {
   margin-bottom: 5px;
 }
 
-/* line 415, src/sass/components/_faq.scss */
+/* line 509, src/sass/components/_faq.scss */
 .radio-container {
   display: inline-block;
   position: relative;
@@ -1385,24 +1480,24 @@ input {
   user-select: none;
 }
 
-/* line 428, src/sass/components/_faq.scss */
+/* line 522, src/sass/components/_faq.scss */
 .radio-container input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
 
-/* line 434, src/sass/components/_faq.scss */
+/* line 528, src/sass/components/_faq.scss */
 .radio-container input:checked ~ .checkmark {
   background-color: #e5e5e5;
 }
 
-/* line 438, src/sass/components/_faq.scss */
+/* line 532, src/sass/components/_faq.scss */
 .radio-container input:checked ~ .checkmark:after {
   display: block;
 }
 
-/* line 442, src/sass/components/_faq.scss */
+/* line 536, src/sass/components/_faq.scss */
 .radio-container .checkmark:after {
   top: 50%;
   left: 50%;
@@ -1414,7 +1509,7 @@ input {
   background: #57b846;
 }
 
-/* line 458, src/sass/components/_faq.scss */
+/* line 552, src/sass/components/_faq.scss */
 .checkmark {
   position: absolute;
   top: 50%;
@@ -1429,25 +1524,25 @@ input {
   box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
 }
 
-/* line 478, src/sass/components/_faq.scss */
+/* line 572, src/sass/components/_faq.scss */
 .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-/* line 484, src/sass/components/_faq.scss */
+/* line 578, src/sass/components/_faq.scss */
 .input-group {
   position: relative;
   margin-bottom: 22px;
 }
 
-/* line 489, src/sass/components/_faq.scss */
+/* line 583, src/sass/components/_faq.scss */
 .input-group-icon {
   position: relative;
 }
 
-/* line 493, src/sass/components/_faq.scss */
+/* line 587, src/sass/components/_faq.scss */
 .input-icon {
   position: absolute;
   font-size: 18px;
@@ -1462,12 +1557,12 @@ input {
 /* ==========================================================================
      #SELECT2
      ========================================================================== */
-/* line 510, src/sass/components/_faq.scss */
+/* line 604, src/sass/components/_faq.scss */
 .select--no-search .select2-search {
   display: none !important;
 }
 
-/* line 514, src/sass/components/_faq.scss */
+/* line 608, src/sass/components/_faq.scss */
 .rs-select2 .select2-container {
   width: 100% !important;
   outline: none;
@@ -1477,7 +1572,7 @@ input {
   border-radius: 5px;
 }
 
-/* line 526, src/sass/components/_faq.scss */
+/* line 620, src/sass/components/_faq.scss */
 .rs-select2 .select2-container .select2-selection--single {
   outline: none;
   border: none;
@@ -1485,7 +1580,7 @@ input {
   background: transparent;
 }
 
-/* line 533, src/sass/components/_faq.scss */
+/* line 627, src/sass/components/_faq.scss */
 .rs-select2 .select2-container .select2-selection--single .select2-selection__rendered {
   line-height: 50px;
   padding-left: 0;
@@ -1496,7 +1591,7 @@ input {
   padding-right: 50px;
 }
 
-/* line 543, src/sass/components/_faq.scss */
+/* line 637, src/sass/components/_faq.scss */
 .rs-select2 .select2-container .select2-selection--single .select2-selection__arrow {
   height: 50px;
   right: 20px;
@@ -1511,12 +1606,12 @@ input {
   align-items: center;
 }
 
-/* line 563, src/sass/components/_faq.scss */
+/* line 657, src/sass/components/_faq.scss */
 .rs-select2 .select2-container .select2-selection--single .select2-selection__arrow b {
   display: none;
 }
 
-/* line 567, src/sass/components/_faq.scss */
+/* line 661, src/sass/components/_faq.scss */
 .rs-select2 .select2-container .select2-selection--single .select2-selection__arrow:after {
   font-family: "Material-Design-Iconic-Font";
   content: '\f2f9';
@@ -1526,13 +1621,13 @@ input {
   transition: all 0.4s ease;
 }
 
-/* line 578, src/sass/components/_faq.scss */
+/* line 672, src/sass/components/_faq.scss */
 .rs-select2 .select2-container.select2-container--open .select2-selection--single .select2-selection__arrow::after {
   -webkit-transform: rotate(-180deg);
   transform: rotate(-180deg);
 }
 
-/* line 586, src/sass/components/_faq.scss */
+/* line 680, src/sass/components/_faq.scss */
 .select2-container--open .select2-dropdown--below {
   border: none;
   border-radius: 3px;
@@ -1543,7 +1638,7 @@ input {
   overflow: hidden;
 }
 
-/* line 599, src/sass/components/_faq.scss */
+/* line 693, src/sass/components/_faq.scss */
 .select2-container--default .select2-results__option {
   padding-left: 22px;
 }
@@ -1551,7 +1646,7 @@ input {
 /* ==========================================================================
      #TITLE
      ========================================================================== */
-/* line 606, src/sass/components/_faq.scss */
+/* line 700, src/sass/components/_faq.scss */
 .title {
   font-size: 24px;
   color: #525252;
@@ -1562,13 +1657,13 @@ input {
 /* ==========================================================================
      #CARD
      ========================================================================== */
-/* line 616, src/sass/components/_faq.scss */
+/* line 710, src/sass/components/_faq.scss */
 .card {
   border-radius: 3px;
   background: #fff;
 }
 
-/* line 623, src/sass/components/_faq.scss */
+/* line 717, src/sass/components/_faq.scss */
 .card-4 {
   background: #fff;
   border-radius: 10px;
@@ -1576,14 +1671,14 @@ input {
   box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
 }
 
-/* line 633, src/sass/components/_faq.scss */
+/* line 727, src/sass/components/_faq.scss */
 .card-4 .card-body {
   padding: 57px 65px;
   padding-bottom: 65px;
 }
 
 @media (max-width: 767px) {
-  /* line 639, src/sass/components/_faq.scss */
+  /* line 733, src/sass/components/_faq.scss */
   .card-4 .card-body {
     padding: 50px 40px;
   }
