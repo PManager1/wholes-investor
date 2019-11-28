@@ -66,9 +66,12 @@ testimonials page
 
 https://codepen.io/alvic/pen/NeqLPB
 =========================
+benefits : make the lines colorful like this : 
 
+https://codepen.io/lizz/pen/CsvKt
 
 =========================
+
 
 =========================
 
