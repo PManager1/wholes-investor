@@ -204,3 +204,4 @@ var banner = {
 ## License
 
 The code is available under the [MIT License](LICENSE.md).
+# wholes-investor
