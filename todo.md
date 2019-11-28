@@ -32,10 +32,6 @@ On going to next page , save that info on to the next page.
 CSS - https://stackoverflow.com/questions/7893857/how-do-you-style-the-dropdown-on-google-places-autocomplete-api
 
 ===============
-
-testimonial slider 
-https://www.codeply.com/go/EIOtI7nkP8
-http://sachinchoolur.github.io/lightslider/
 ===============
 
 
@@ -62,6 +58,14 @@ thats looks like google but its your website.
 https://www.google.com/shopping/ratings/account/metrics?q=lightbulbs.com&c=US&v=4&hl=en
 
 =========================
+FAQ page, 
+
+For the pic on top use this color tinted 
+
+  rgba(255, 0, 0, 0.45),
+      rgba(255, 0, 0, 0.45)  
+
+=========================
 testimonials page 
 
 https://codepen.io/alvic/pen/NeqLPB
@@ -71,6 +75,12 @@ benefits : make the lines colorful like this :
 https://codepen.io/lizz/pen/CsvKt
 
 =========================
+
+
+testimonial slider 
+https://www.codeply.com/go/EIOtI7nkP8
+http://sachinchoolur.github.io/lightslider/
+
 
 
 =========================

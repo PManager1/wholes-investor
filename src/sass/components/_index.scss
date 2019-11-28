@@ -36,7 +36,7 @@
   background: 
   linear-gradient(-52deg,rgba(34,188,185,.5) 0,rgba(34,188,185,.5) 47%,#22bcb9 100%),
     /* bottom, image */
-    url(/Images/home3.jpg);
+    url(/Images/home7.jpg);
 }
 
 // informationDiv
@@ -568,6 +568,26 @@ footer .glyphicon {
   }
 }
 
-// /**** pricing  WhyUS ****/
+ /**** pricing  WhyUS ****/
 
-
+  /**** testimonials  WhyUS ****/
+.testi-col{
+  background-color: #F9F9F9;
+    height: 368px;
+    // max-width: 100%;
+    padding: 0 50px;
+    font-family: Lora,serif;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 30px;
+    margin: 15px; 
+}
+.fivestar{
+  margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.testi-p{
+  font-size: 19px;
+}
