@@ -888,25 +888,36 @@ footer .glyphicon {
 .testi-col {
   background-color: #F9F9F9;
   height: 368px;
-  padding: 0 50px;
   font-family: Lora,serif;
   font-size: 20px;
   font-style: italic;
-  line-height: 30px;
-  margin: 15px;
+  padding: 15px;
 }
 
-/* line 585, src/sass/components/_index.scss */
+/* line 586, src/sass/components/_index.scss */
 .fivestar {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   margin-bottom: 15px;
+  margin-top: 40px;
 }
 
-/* line 591, src/sass/components/_index.scss */
+/* line 593, src/sass/components/_index.scss */
 .testi-p {
-  font-size: 19px;
+  font-size: 24px;
+  padding: 35px;
+  color: #7a6f71;
+}
+
+/* line 599, src/sass/components/_index.scss */
+.testi-name {
+  margin-top: 30px;
+  color: #22bcb9;
+  font-family: Helvetica,Arial,sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 /* ==========================================================================
