@@ -45,19 +45,31 @@
 }
 
 .question {
-  position: relative;
-  // background: #8FBC8F;
-  margin: 0;
-  padding: 10px 10px 10px 50px;
-  display: block;
-  width:100%;
-  cursor: pointer;
+  // position: relative;
+  // // background: #8FBC8F;
+  // margin: 0;
+  // padding: 10px 10px 10px 50px;
+  // display: block;
+  // width:100%;
+  // cursor: pointer;
+
+  color: #4a4244;
+  padding-left: 0!important;
+  padding-right: 50px!important;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
 }
 
 /* ======== accordian START ================================================================== */
 
 .answers {
   // background: #999;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 34px;
+  color: #7a6f71;
+
   padding: 0px 15px;
   margin: 5px 0;
   height: 0;
@@ -79,7 +91,9 @@
 
 .plus {
   position: absolute;
-  margin-left: 10px;
+  margin-left: -36px;
+  margin-top: 11px;
+  color:#f04134; 
   z-index: 5;
   font-size: 2em;
   line-height: 100%;
@@ -105,5 +119,5 @@
   display: none;
 }
 
-/* ======== accordian END ==================================================================
+/* ======== accordian END ================================================================== */
 
